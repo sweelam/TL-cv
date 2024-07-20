@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.5.4)  9 MAY 2024 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.7.20)  20 JUL 2024 07:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,6 +322,21 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count274
+\scratchdimen=\dimen158
+\scratchbox=\box56
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen159
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks25
+)
 Package hyperref Info: Link coloring OFF on input line 105.
  (./my-new-tl-cv.out) (./my-new-tl-cv.out)
 \@outlinefile=\write3
@@ -362,11 +377,11 @@ nput line 135.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 149.
+(Font)              <10.95> on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 149.
+(Font)              <8> on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 149.
+(Font)              <6> on input line 148.
 
 [1
 
@@ -378,42 +393,32 @@ ps/fontawesome5/fa5free2.enc}] [2] (./my-new-tl-cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `my-new-tl-cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `my-new-tl-cv.out':
-(rerunfilecheck)             Before: 5052EB5C58A6758DFEC63AF91DD562B7;820
-(rerunfilecheck)             After:  A7B5BDD85E53D78E40C42CA45EAF1258;713.
+Package rerunfilecheck Info: File `my-new-tl-cv.out' has not changed.
+(rerunfilecheck)             Checksum: A7B5BDD85E53D78E40C42CA45EAF1258;713.
  ) 
 Here is how much of TeX's memory you used:
- 12699 strings out of 478087
- 220385 string characters out of 5842651
+ 12998 strings out of 476034
+ 224394 string characters out of 5792854
  1875388 words of memory out of 6000000
- 32640 multiletter control sequences out of 15000+600000
+ 33291 multiletter control sequences out of 15000+600000
  519768 words of font info for 60 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 75i,11n,76p,508b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection.2.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Bran
-ds-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/F
-ontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmc
-sc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on my-new-tl-cv.pdf (2 pages, 153986 bytes).
+ 1137 hyphenation exceptions out of 8191
+ 75i,11n,76p,369b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Br
+ands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5
+/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on my-new-tl-cv.pdf (2 pages, 153817 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
