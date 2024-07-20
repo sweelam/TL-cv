@@ -1,0 +1,289 @@
+%-------------------------
+% Resume in Latex
+% Author : Matty
+% Based on: https://github.com/jakegut/resume (which was itself based on https://github.com/sb2nov/resume)
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+% \usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\input{glyphtounicode}
+
+% -------------------- FONT OPTIONS --------------------
+% sans-serif
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% serif
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-1in} % Default was -.5in
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Subsection formatting
+\titleformat{\subsection}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% -------------------- CUSTOM COMMANDS --------------------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlength{\footskip}{4.08003pt}
+
+% -------------------- START OF DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADING--------------------
+\begin{flushright}
+  % \vspace{-4pt}
+  \color{gray}
+  \item
+  Last Update on May, 2024
+\end{flushright}
+
+\vspace{-5pt}
+
+\begin{center}
+    \textbf{\Huge \scshape Mohamed Sweelam} \\ \vspace{8pt}
+    \small 
+    \faIcon{linkedin}
+    \href{https://linkedin.com/in/mohamedsweelam}{\underline{Linkedin}} 
+    \faIcon{github}
+    \href{https://github.com/sweelam}{\underline{Github}} 
+    \faIcon{code}
+    \href{https://almdrasa.com/consultations/mohamed-sweelam}
+    {\underline{Consultation}} 
+    \faIcon{envelope}
+    \href{mailto:md.sweelam@gmail.com}
+    {\underline{md.sweelam@gmail.com}}
+
+
+	\faIcon{home}
+    {Address: Dubai, UAE} 
+        
+    \faIcon{phone}
+    {Phone: +971 50 3068 424}  
+    
+\end{center}
+
+\section{Profile Summary}
+Dynamic Senior Software Engineer with over a decade of comprehensive experience in designing, developing, and optimizing cloud-native and microservices architectures across diverse industries including telecom, microfinance, and customer engagement. Proven leader adept at steering cross-functional teams to surpass business goals. Skilled in leveraging a robust technical toolkit, and various cloud technologies to deliver scalable, high-performance software solutions.
+
+% -------------------- EDUCATION --------------------
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Helwan University}{June 2015}
+      {B.S. Computer Science}{GPA: Good}
+      
+    \begin{description}[font=$\bullet$\scshape\bfseries]
+      \item \textbf{Courses:} Data Structures \& Algorithms, Object Oriented, Database Design, and Data Science \\
+      \item \textbf{Graduation Project:} Data Visualization framework for Data Analysis using C++ and JS \\
+      \item \textbf{Awards:}
+      \begin{description}[font=$\bullet$\scshape\bfseries] 
+      	\small {
+        	\item {1st Place MIE Contest           (Egypt Best Graduation Project)}
+        	\item {1st Place Ibtecar Contest @TIEC (Egypt Best Graduation Project)}
+        }
+      \end{description}
+ 	\end{description}
+
+  \resumeSubHeadingListEnd
+% -------------------- Work History --------------------
+\section{Work History}
+\resumeSubHeadingListStart
+
+          \resumeProjectHeading
+          {\textbf{Technical Lead} $|$ \footnotesize\emph{Almosafer - UAE}\vspace{8pt}}{03/2023 -- Present}
+          \small{Leader of the content and mapping team, my responsibilities include leading the team and provide proper support and coaching, analyzing existing systems, identifying and resolving bottlenecks, designing solutions, and ensuring adherence to best practices and the latest technology stack.}
+
+          \resumeProjectHeading
+          {\textbf{Senior Software Engineer}\vspace{8pt} $|$ \footnotesize\emph{Unifonic - UAE}}{03/2021 -- 03/2023}
+          \small{Working in the customer engagement industry, building cloud-native systems, designing solutions, developing, Team mentor and production support owner.}
+
+          \resumeProjectHeading
+          {\textbf{Senior Full Stack Developer} $|$ \footnotesize\emph{Etisalat - UAE}\vspace{8pt}}{07/2018 -- 02/2021}
+          {\small{Worked in the telecom industry, mainly with core sales applications, working closely with customers and business analysts to gather requirements, analyze and implement.}}
+
+          \resumeProjectHeading
+          {\textbf{Software Engineer} $|$ \footnotesize\emph{egabi - Egypt}\vspace{8pt}}{06/2015 -- 06/2018}
+          {\small{Worked in the microfinance industry, built loan management systems, handled support and technical issues reported from the customer side, and applied data migration and integration with third-party tools.}}
+          
+    \resumeSubHeadingListEnd 
+
+% -------------------- SKILLS --------------------
+\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+      {\textbf{Practical Skills} $|$ \footnotesize\emph{The following skills are my hands-on experience}}{}
+	  \resumeItemListStart
+    	\resumeItem {Languages 					\hfill Java, Kotlin, Javascript, Python, \LaTeX }
+    	\resumeItem {Frameworks					\hfill Spring Boot, Spring Cloud, NodeJs, Flask}
+    	\resumeItem {Databases					\hfill PostgreSQL, MySQL, MongoDB, Cassandra}
+    	\resumeItem {Caching Systems 			\hfill Redis, Memcached}
+    	\resumeItem {Messaging Systems 			\hfill Kafka, RabbitMQ}
+    	\resumeItem {DevOps 					\hfill Docker, Kubernetes, CI/CD tools}
+    	\resumeItem {Languages Spoken 			\hfill Arabic (Mother Tongue), English (Professional)}
+      \resumeItemListEnd
+   \resumeSubHeadingListEnd
+
+
+% -------------------- PROJECTS --------------------
+\section{Projects}
+    \textit{The following projects are some of the core projects I had worked with, not all!}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+        {\textbf{Hotel Mapping System (HMS)} $|$ \footnotesize\emph{Spring Boot (java-17), Kafka, AWS (s3 \& Lambda), MySQL , MongoDB}}{Present}
+        \resumeItemListStart
+            \resumeItem{Integrating with multiple hotels' contents suppliers, apply the right mapping of hotels and rooms.}
+            \resumeItem{Leading the development of the system following Microservices arch}
+            \resumeItem{Solutionizing and Gathering requirements , code reviewer and mentor }
+            \resumeItem{\textbf{Achievement:} I was able to achieve 99\% stability for two main components and increase the system's throughput from 10 RPS to 2,500 RPS. }
+          \resumeItemListEnd
+    
+        \resumeProjectHeading
+        {\textbf{NextGen Architecture Migration} $|$ \footnotesize\emph{Distributed Systems, Microservices, Security Mitigation}}
+        {01/2022 -- 09/2022}
+        \resumeItemListStart
+            \resumeItem{Dedicated to reviewing the new company goal to upgrade the cloud architecture}
+            \resumeItem{working closely with architects and supporting them in understanding existing systems, bottlenecks, and recommended compatible solutions}
+            \resumeItem{Analysis for legacy systems, find bottlenecks, and recommend solutions.}
+            \resumeItem{Review solution architecture and provide feedback on gaps from a tech and business point of view. }
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+        {\textbf{Exposure Layer (EL)} $|$ \footnotesize\emph{Spring Boot (java-15), RabbitMQ, Kafka, Memcached, Cassandra, MySQL}}
+        {03/2021 -- 02/2023}
+        \resumeItemListStart
+            \resumeItem{EL is acting as API gateway layer for sending SMS, preparing requests and apply required routings, message orchestrations, handle charging and others.}
+            \resumeItem{Designed \& implemented a highly scalable systems that follows cloud-native arch}
+            \resumeItem{Team mentor and Production support owner}
+            \resumeItem{\textbf{Achievement:} Successfully upgraded the legacy system to the latest technology stack, enhancing system performance by 8x. Achieved this by identifying bottlenecks in infrastructure solutions and implementing compatible enhancements. }
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+        {\textbf{Fraud Detection System} $|$ \footnotesize\emph{Java, Cassandra, AWS EKS, Kafka, ML}}{05/2022 - 08/2022}
+        \resumeItemListStart
+            \resumeItem{\textbf{Achievement:} Developed a core security component that identifies flood and SMS phishing (also known as \textit{smishing}) attacks by analyzing attacker behavior.}
+            \resumeItem{Review and enhance the algorithm model}
+            \resumeItem{Data layer design and implementation}
+            \resumeItem{End-to-End building for CI pipelines.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Unified Sales Portal} $|$ \footnotesize\emph{Spring Boot (java-11), Angular-6, Kafka, Oracle DB, Docker Swarm}}
+        {08/2018 - 01/2021}
+        \resumeItemListStart
+            \resumeItem{Unification for two big telecom sales applications which are managing the core sales business needs (indoor and outdoor) for customers; System allows users requesting new account, managing existing one, moving among telecom componies in UAE.}
+            \resumeItem{Senior Engineer acting as team mentor}
+            \resumeItem{End-to-End features delivery}
+            \resumeItem{Database Owner and Product catalogue Maintainer}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Micro-finance} $|$ \footnotesize\emph{Java-8, Angular-2, Oracle DB, Docker Swarm}}
+        {07/2015 - 05/2018}
+        \resumeItemListStart
+            \resumeItem{Fast-growing, high-street lender operating on a local level to provide comprehensive microfinance solutions to lower-income business owners across Egypt.}
+            \resumeItem{Software Engineer who was coding features}
+            \resumeItem{Customer support (on-site)}
+        \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+% -------------------- CERTIFICATES --------------------
+\section{Certificates}
+	  \begin{description}[font=$\bullet$\scshape\bfseries]
+	  \small{
+	  	\item {\textbf{AWS solution architect}} 	\hfill {Udemy--2021}
+    	\item {\textbf{Algorithms on Graphs}} 		\hfill {US San Diego University--2020}
+    	\item {\textbf{Spring Developer Track}}		\hfill {Linkedin Learning--2019}
+    	\item {\textbf{Machine Learning}}			\hfill {Stanford University--2013}
+      }
+	  \end{description}
+    	
+% -------------------- Topics Of Interest --------------------
+\section{Topics Of Interest}
+    \begin{description}[font=$\bullet$\scshape\bfseries]
+    \small{
+    	\item \textbf{Cloud Native Architecture} 
+
+     	\item \textbf{Microservices Architecture:} \hfill Youtube Content: \href{https://www.youtube.com/watch?v=9pGXaUaMyBo&list=PLgAqrVq84PDdfiDow3YVsgc1q34JD415Z}{\underline{Microservices Architecture In Arabic}}
+
+     	\item \textbf{Distributed Systems: } 	  \hfill Youtube Content: \href{https://www.youtube.com/watch?v=RTdpGvrpWOI&list=PLgAqrVq84PDcg55xnbUBHuLS8tWul6-kF&pp=gAQBiAQB}{\underline{Distributed Systems in Actions - Arabic}}
+    }
+ \end{description}
+
+\end{document}
