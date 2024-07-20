@@ -1,0 +1,315 @@
+\documentclass[%singlesided,
+               doublesided,
+               paper=a4,
+               fontsize=10pt
+              ]{my-resume}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set geometry
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength\highlightwidth{8cm}
+\setlength\headerheight{4cm}            % note that margintop gets added to this value, i.e. the header bar is 5cm
+\setlength\marginleft{1cm}
+\setlength\marginright{\marginleft}      % needs to be 1.5 times to be actually equal. why?
+\setlength\margintop{1cm}
+\setlength\marginbottom{1cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FONTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{fontspec}
+\setmainfont{Carlito}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COLORS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorlet{highlightbarcolor}{lightgray}
+\colorlet{headerbarcolor}{darkgray}
+
+\colorlet{headerfontcolor}{white}
+\colorlet{accent}{awesome-red}
+\colorlet{heading}{black}
+\colorlet{emphasis}{black}
+\colorlet{body}{black}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\name{Mohamed Sweelam}
+\tagline{
+Software Engineer with 10+ years of experience in different programming languages, distributed systems, and Hybrid cloud models, proven track record of delivering successful projects on time and to specification in various business domains, such as Microfinance, Telecom and Customer Engagement. Strong communication skills, skilled in leading development teams and working in agile environments.
+}
+\photo[round]{picture-1.jpeg}{\dimexpr 0cm}   % make photo exactly match the header with margintop/marginright/marginbottom as margin
+
+\makeheader
+
+\highlightbar{
+
+    \section{Contact}
+    
+    \email{md.sweelam@gmail.com}
+    \phone{+971 5030 68424}
+    \location{Egyptian}
+    \location{Dubai, UAE}
+    \github{github.com/sweelam}{https://github.com/sweelam}
+    \linkedin{linkedin.com/in/mohamedsweelam/}{https://www.linkedin.com/in/mohamedsweelam/}
+    \stackoverflow{stackoverflow.com/users/4177869}{https://stackoverflow.com/users/4177869/mohamed-sweelam}
+    
+    \section{Skills}
+    
+    \skillsection{PLs \& Frameworks}
+    \simpleskill{Java}
+    \simpleskill{Kotlin}
+    \simpleskill{Spring Boot}
+    \simpleskill{Spring Cloud}
+    \simpleskill{Javascript}
+    \simpleskill{Node JS}
+
+    \vspace{0.5em}
+    \skillsection{Data Stores \& Messaging Systems}
+    \simpleskill{PostgreSQL}
+    \simpleskill{MySQL}
+    \simpleskill{Cassandra}
+    \simpleskill{Mongodb}
+    \simpleskill{Redis}
+    \simpleskill{Memcached}
+    \simpleskill{Kafka}
+    \simpleskill{RabbitMQ}
+    
+    \vspace{0.5em}
+    \skillsection{DevOps}
+    \simpleskill{Docker}
+    \simpleskill{Kubernates}
+    \simpleskill{Jenkins}
+    \simpleskill{DroneCI}
+    \simpleskill{ArgoCD}
+    \simpleskill{Grafana}
+    \simpleskill{Prometheus}
+    \simpleskill{SonarQube}
+
+	\vspace{0.5em}
+    \skillsection{Operating Systems}
+    \skill{Linux}{5}
+    \skill{Windows}{4}
+        
+    
+    \vspace{0.5em}
+    \skillsection{Languages}
+    \skill{Arabic}{5}
+    \skill{English}{4}
+    
+	\vspace{0.5em}
+    \skillsection{Hobbies}
+    \simpleskill{Reading}
+    \simpleskill{Active Podcast Listener}
+    \simpleskill{Football Player}    
+    
+    \bigskip
+
+}
+\mainbar{
+    \section[\faGears]{Work history}
+    \job{03/2023 - Now}
+        {Almosafer, Dubai - UAE}
+        {Principle Engineer}
+        {
+        \small{Principal and  Leader of the content and mapping team, my responsibilities include leading the team and provide proper support and coaching, analyzing existing systems, identifying and resolving bottlenecks, designing solutions, and ensuring adherence to best practices and the latest technology stack}
+        }
+        
+    \job{03/2021 - 03/2023}
+        {Unifonic, Dubai - UAE}
+        {Senior Software Engineer}
+        {
+        \small{Working in the customer engagement industry, building cloud-native systems, designing solutions, developing, Team mentor and production support owner.}
+        }
+    
+    
+    \job{07/2018 - 02/2021}
+        {Etisalat, Dubai - UAE}
+        {Senior Full Stack Developer}
+        {
+        \small{Worked in the telecom industry, mainly with core sales applications, working closely with customers and business analysts to gather requirements and implement them.}
+        }
+    
+    \job{06/2015 - 06/2018}
+        {egabi, Cairo - Egypt}
+        {Software Engineer}
+        {
+        \small{Worked in the microfinance industry, built loan management systems, handled support and technical issues reported from the customer side, and applied data migration and integration with third-party tools.}
+        }
+    
+    \section[\faMortarBoard]{Education}
+    \job{2011 - 2015}
+        {Helwan University, Cairo}
+        {Computer Science}
+        {$\triangleright$ Graduation Project: Data Visualization framework for Data Analysis using C++ and JS}
+    
+    \section{Certificates}
+    \smallskip % additional skip because tag outlines use up space
+    		\begin{itemize}
+			\setlength\itemsep{.001em}
+			\item Spring Developer Track			\hfill	Linkedin
+			\item AWS solution architect			\hfill	Udemy
+			\item Algorithms on Graphs			\hfill	Coursera
+			\item Machine Learning Stanford		\hfill	Coursera
+		\end{itemize}
+    
+    \section{Topics of Interest}
+    		\begin{itemize}
+			\setlength\itemsep{.001em}
+			\item Distributed Systems 
+			\item Cloud Native Architecture
+			\item Microservices Architecture
+			\item CI \& CD
+		\end{itemize}
+		
+    \section{Awards}
+    \achievement{1st Place MIE Contest (Best GP)						\hfill August - 2015}
+    \achievement{1st Place Ibtecar Contest (Best GP) @TIEC			\hfill December - 2015}
+		
+	\section{Youtube Creator}
+	Supporting Arabic content with Software related topics
+		\begin{itemize}
+			\item [$\triangleright$] \href{https://www.youtube.com/watch?v=9pGXaUaMyBo&list=PLgAqrVq84PDdfiDow3YVsgc1q34JD415Z}{\textcolor{blue}{Microservices Architecture In Arabic \faYoutube}} .
+			\item [$\triangleright$] \href{https://www.youtube.com/watch?v=RTdpGvrpWOI&list=PLgAqrVq84PDcg55xnbUBHuLS8tWul6-kF&pp=gAQBiAQB}{\textcolor{blue}{Distributed Systems in Action - Arabic \faYoutube}}
+		\end{itemize}
+    
+}
+\makebody
+\clearpage
+
+
+\pagestyle{empty}
+    \section{Projects}
+	\textit{\color{accent}The following projects are some of the core projects I had worked with, not all!}
+    \begin{enumerate}
+		\item 
+		\textbf{\color{cyan}Hotel Mapping System (HMS) \faBank} \hfill \textit{Almosafer UAE \faMapMarker} \\
+		Integrating with multiple hotels' contents suppliers, populate latest data change of hotels data; apply the right mapping of hotels and rooms; The system was built following Microservices arch.\\
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\setlength\itemsep{.0001em}
+			\item Leading, supporting and developing 
+			\item Solutionizing and Gathering requirements
+			\item Code reviewer and mentor 
+			\item \color{accent} Tech Stack: 
+			\tag {Spring Boot (java 17)}
+			\tag {Express (Node JS)}
+			\tag {AWS}
+			\tag {Kafka}
+			\tag {Redis}
+			\tag {MySQL}
+			\tag {Mongodb}			
+		\end{itemize}
+		    
+    
+    	\item 
+		\textbf{\color{cyan} Company Architecture Migration \faCogs} \hfill \textit{Unifonic UAE \faMapMarker} \\
+		Dedicated to reviewing the new company goal to upgrade the cloud architecture, working closely with architects and supporting them in understanding existing systems, bottlenecks, and recommended compatible solutions.  	\\
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\item Review solution architecture and provide feedback on gaps from a tech and business point of view.  	
+			\item Analysis for legacy systems, find bottlenecks, and recommend solutions.
+			\item 
+			\color{accent} {Topics and Techs}
+			\tag {Distributed Systems}  
+			\tag {Microservices} 
+			\tag {Security Attack Mitigation}
+		\end{itemize}
+		
+		\item 
+		\textbf{\color{cyan}Exposure Layer (EL) \faCogs} \hfill \textit{Unifonic UAE \faMapMarker} \\
+		EL is acting as API gateway layer for sending SMS, preparing requests and apply required routings, message orchestrations, handle charging and others, EL is highly scalable systems that follows cloud-native arch.	\\
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\item Team mentor and Production support owner
+			\item \textbf{Achievement: \textit{Upgrade legacy system to latest tech stack, enhance system performance by identifying the bottlenecks in infra solutions and apply compatible solutions}} 
+			\item 
+			\color{accent} {Tech Stack} 
+			\tag {AWS EKS} 
+			\tag {Spring Boot (java 16)} 
+			\tag {RabbitMQ} 
+			\tag {Kafka} 
+			\tag {Memcache}
+			\tag {Cassandra} 
+			\tag {MySQL}
+		\end{itemize}
+		
+		\item 
+		\textbf{\color{cyan}{Fraud Detection System} \faSearch} \hfill \textit{Unifonic UAE \faMapMarker} \\
+		  \textbf{Achievement:} Build core security component that identifies flood and Smishing attacks by understanding the attacker behaviour \\
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\setlength\itemsep{.0001em}
+			\item Reviewed and enhanced the algorithm model.
+			\item Data layer design and implementation.
+			\item Build CI pipelines.
+			\item \color{accent} Tech Stack: 
+			\tag {Cassandra}
+			\tag {AWS EKS}
+			\tag {Spring Boot (java 17)}
+		\end{itemize}
+		
+		
+		\item \textbf{\color{cyan}Unified Sales Portal \faMoney} \hfill \textit{Etisalat UAE \faMapMarker} \\
+		Unification for two big telecom sales applications which are managing the core sales business needs (indoor and outdoor) for customers; System allows users requesting new account, managing existing one, moving among telecom componies in UAE.\\
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\setlength\itemsep{.0001em}
+			\item Act as Lead , putting system design \& architecture  \hfill [\textbf{\color{black}Microservices}].
+			\item \textbf{Achievement: \textit{build first event driven order fulfilment module for the company}}
+			\item \color{accent} Tech Stack: 
+			\tag {Docker Swarm}			
+			\tag {Spring Boot (java 11)} 
+			\tag {Angular 6+} 
+			\tag {Oracle DB}
+			\tag {Redis} 
+			\tag {Kafka}
+		\end{itemize}
+		
+		\item \textbf{\color{cyan}Core banking system \faBank}. \hfill \textit{egabi - Egypt\faMapMarker}. \\
+		Starting revamp for egabi product's system which covers the whole process of banking like General Ledger, Loan Management, Account Management etc.\\
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\setlength\itemsep{.001em}
+			\item Recommend and present a new system teck stack to company stakeholders   		
+			\item Deliver first module  using microservices architecture, and train the team on the new system design 
+		\end{itemize}
+		
+		
+		\item \textbf{\color{cyan} Micro-finance \faDollar}. \hfill \textit{egabi - Egypt \faMapMarker} \\
+		Fast-growing, high-street lender operating on a local level to provide comprehensive microfinance solutions to lower-income business owners across Egypt.\\
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\setlength\itemsep{.001em}
+			\item Leading, Support \& Requirements gathering and analysis.
+			\item \color{accent} Tech Stack: 
+			\tag {Oracle weblogic 12}			
+			\tag {Oracle ADF (java 8)}
+			\tag {Jasper Report}
+			\tag {Oracle DB}
+			\tag {Redis}
+		\end{itemize}
+		
+		\item \textbf{\color{cyan}Logical Time Manager Library \faCode} \hfill \textit{Self Done - UAE \faMapMarker}\\ 
+		Logical time library is a mechanism for solving Order messaging and causality issue in distributed systems. \\ 
+		\textbf{Responsibility} 
+		\begin{itemize}
+			\setlength\itemsep{.001em}
+			\item System design and development in Java 17.		\hfill \github{Source Code}{https://github.com/sweelam/logical-time-in-distiburted-systems}					
+		\end{itemize}
+		
+	\end{enumerate}
+
+\end{document}
